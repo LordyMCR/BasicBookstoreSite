@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+html, body, p, nav, ul, li, header, a, footer, h1, section { 
+	padding: 0;
+	margin: 0;
+}
+html {
+	background: lightgrey;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: lightgray;
+}
+.container {
+	margin: auto;
+	height: auto;
+	width: 90%;
+	background: white;
+}
+.indexHeader {
+	text-align: center;
+	height: 90px;
+	padding: 5px 5px 0px 5px;
+	border-bottom: 1.5px solid #40b7ad;
+	background: white;
+}
+.lordysLogo {
+	width: 250px;
+}
+#indexNav {
+	height: 35px;
+	border-bottom: 2.5px solid #40b7ad;
+}
+#payNav {
+	border-bottom: 1px solid #40b7ad;
+}
+nav ul {
+	background-color: #a9dad5;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	text-align: center;
+}
+.navBar {
+	display: inline-block;
+}
+#aboutUsNav {
+	border-left: 1.5px solid #40b7ad;
+	border-right: 1.5px solid #40b7ad;
+}
+.navBar a, .navBar a:link, .navBar a:visited {
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	color: #40b7ad;
+	padding: 9px 16px;
+	transition-duration: 0.2s;
+}	
+.navBar a:hover {
+	background-color: #40b7ad;
+	color: white;
+}
+section {
+	text-align: center;
+}
+section ul {
+	list-style-type: none;
+}
+section a {
+	text-decoration: none;
+}
+.allBooks {
+	background: white;
+	float: left;
+	width: 50%;
+	height: auto;
+	padding-bottom: 20px;
+}
+#book1, #book2 {
+	border-bottom: 1.5px solid #40b7ad;
+}
+.bookCover {
+	float: left;
+	width: 200px;
+	height: 300px;
+}
+.bookInfo {
+	margin-left: 20px;
+}
+h1 {
+	text-align: center;
+	font-size: 23px;
+}
+.bookDetails {
+	padding: 10px 20px 0 235px;
+	text-align: center;
+}
+.bookDesc {
+	font-size: 14px;
+	text-decoration: underline;
+}
+.bookBlurb {
+	font-size: 12px;
+	margin-top: -5px;
+}
+.payBtn {
+	background: #40b7ad;
+	padding: 4px 24px;
+	border-radius: 8px;
+	color: white;
+	cursor: pointer;
+}
+.payBtn:hover {
+	text-decoration: underline;
+	transition-duration: 0.2s;
+}
+.payHeader {
+	float: left;
+	width: 100%;
+	padding-top: 30px;
+	border-bottom: 1.5px solid #40b7ad;
+}
+.payHeading {
+	font-size: 24px;
+	text-align: center;
+	bottom: 0;
+}
+#successHeader {
+	float: left;
+	width: 100%;
+	padding-top: 30px;
+	border-top: 1.5px solid #40b7ad;
+	border-bottom: 1.5px solid #40b7ad;
+}
+#successHeading {
+	font-size: 24px;
+	text-align: center;
+	bottom: 0;
+}
+.mastercardHeader {
+	float: left;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.mastercardHeading {
+	float: left;
+	padding-left: 28%;
+	font-size: 18px;
+}
+.mastercardLogo {
+	float: left;
+	width: 60px;
+	margin-left: 20px;
+}
+.payLabels {
+	clear: left;
+	float: left;
+	background-color: #dbf3f1;
+	text-align: left;
+	height: 180px;
+	margin-left: 28%;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+.payForm {
+	float: left;
+	background-color: #dbf3f1;
+	text-align: left;
+	height: 191px;
+	width: 35%;
+	padding-top: 8px;
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+i {
+	color: #40b7ad;
+}
+#cardNumber {
+	width: 40%;
+}
+#month {
+	width: 20%;
+}
+#year{
+	width: 18%;
+}
+#cvv {
+	width: 18%;
+}
+input, select {
+	margin-bottom: 12px;
+}
+#successContainer {
+	clear: left;
+	background-color: #dbf3f1;
+	margin: 0 29.8% 30px 28%;
+	padding: 5px 0 0 10px;
+	height: 194px;
+}
+#cardHash {
+	text-align: left;
+}
+footer {
+	clear: left;
+	width: auto;
+	height: 40px;
+	border-top: 1.5px solid #40b7ad;
+	color: #40b7ad;
+	background-color: #a9dad5;
+}
+h2 {
+	text-align: center;
+	font-size: 16px;
+}
+@media (max-width: 1050px) {
+	.bookCover {
+		width: 150px;
+		height: 225px;
+	}
+	.bookDetails {
+		padding: 10px 20px 0 180px;
+	}
+	h1 {
+		font-size: 16px;
+	}
+	.bookDesc {
+		font-size: 11px;
+	}
+	.bookBlurb {
+		font-size: 10px;
+	}
+}
+@media (max-width: 800px) {
+	.allBooks {
+		width: 100%;
+		border-bottom: 1.5px solid #40b7ad;
+	}
+	h1 {
+		font-size: 16px;
+	}
+	.bookDetails {
+		padding: 10px 20px 0 180px;
+	}
+	.bookDesc {
+		font-size: 11px;
+	}
+	.bookBlurb {
+		font-size: 10px;
+	}
+}
+@media (max-width: 600px) {
+	nav {
+		height: 110px;
+		width: 100%;
+	}
+	.navBar {
+		display: block;
+		border-bottom: 1.5px solid #40b7ad;
+	}
+	#aboutUsNav {
+		border-left: none;
+		border-right: none;
+	}
+	.navBar a, .navBar a:link, .navBar a:visited {
+		display: block;
+	}
+	#book4 {
+		border-bottom: none;
+	}
+	footer {
+		border-top: none;
+	}
+}
